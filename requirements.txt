@@ -1,0 +1,10 @@
+bertopic
+google
+matplotlib
+nltk
+numpy
+pandas
+praw
+seaborn
+scikit-learn
+statsmodels
