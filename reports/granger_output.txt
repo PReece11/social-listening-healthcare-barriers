@@ -1,0 +1,48 @@
+
+================================================================================
+GRANGER CAUSALITY TEST: barrier_rate → avoid_rate (pregnancy)
+================================================================================
+Lag 1: p-value = 0.2540
+Lag 2: p-value = 0.9254
+Lag 3: p-value = 0.0979
+Note: p-values < 0.05 suggest x helps predict future y (Granger-causal).
+
+================================================================================
+GRANGER CAUSALITY TEST: cost_rate → avoid_rate (pregnancy, cost)
+================================================================================
+Lag 1: p-value = 0.9121
+Lag 2: p-value = 0.5747
+Lag 3: p-value = 0.0397
+Note: p-values < 0.05 suggest x helps predict future y (Granger-causal).
+
+================================================================================
+GRANGER CAUSALITY TEST: barrier_rate → avoid_rate (diabetes)
+================================================================================
+Lag 1: p-value = 0.8136
+Lag 2: p-value = 0.7567
+Lag 3: p-value = 0.9733
+Note: p-values < 0.05 suggest x helps predict future y (Granger-causal).
+
+================================================================================
+GRANGER CAUSALITY TEST: cost_rate → avoid_rate (diabetes, cost)
+================================================================================
+Lag 1: p-value = 0.6415
+Lag 2: p-value = 0.8304
+Lag 3: p-value = 0.8998
+Note: p-values < 0.05 suggest x helps predict future y (Granger-causal).
+
+================================================================================
+GRANGER CAUSALITY TEST: barrier_rate → avoid_rate (access_insurance)
+================================================================================
+Lag 1: p-value = 0.8485
+Lag 2: p-value = 0.2672
+Lag 3: p-value = 0.3630
+Note: p-values < 0.05 suggest x helps predict future y (Granger-causal).
+
+================================================================================
+GRANGER CAUSALITY TEST: cost_rate → avoid_rate (access_insurance, cost)
+================================================================================
+Lag 1: p-value = 0.9813
+Lag 2: p-value = 0.3521
+Lag 3: p-value = 0.4782
+Note: p-values < 0.05 suggest x helps predict future y (Granger-causal).
