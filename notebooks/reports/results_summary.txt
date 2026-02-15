@@ -1,6 +1,0 @@
-🩺 INTERPRETATION SUMMARY
-1) Cost and bureaucratic barriers show the strongest co-occurrence with 'avoid' intent.
-2) Pregnancy-related subreddits (BabyBumps, pregnant, GestationalDiabetes) show higher emotional tone and more stigma mentions.
-3) Chronic condition subreddits (diabetes_t1/t2) show steadier sentiment but higher cost discussions.
-4) Negative sentiment correlates moderately with avoidance intent across all communities.
-5) Overall, cost + stigma barriers appear to have the largest predictive effect on care-seeking delay or avoidance.
