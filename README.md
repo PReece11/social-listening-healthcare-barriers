@@ -1,48 +1,45 @@
-Social Listening: Healthcare Access Barriers
+# 🩺 Social Listening: Healthcare Access Barriers
 
-Unsupervised social listening study identifying healthcare access barriers (cost, stigma, geography, literacy, bureaucracy) in Reddit discussions using NLP, topic modeling, and time-series analysis.
+Unsupervised NLP study identifying structural and psychological barriers to healthcare access in Reddit discussions.
 
-Project Overview
+This project analyzes large-scale Reddit conversations to detect cost, stigma, geography, literacy, and bureaucratic barriers to care using topic modeling, sentiment analysis, and time-series modeling.
 
-This project analyzes Reddit discussions across health-related communities to:
+---
 
-Identify common structural and psychological barriers to care
+## 🎯 Project Goal
 
-Detect intent and sentiment patterns
+**Research Question**
 
-Extract latent topics using LDA and BERTopic
+Do online discussions about cost and stigma predict increases in care avoidance behavior?
 
-Explore temporal relationships using Granger causality tests
+Using NLP and temporal modeling, this study evaluates whether barrier-related discourse precedes measurable increases in avoidance intent.
 
-Methods
+---
 
-Text preprocessing and cleaning
+## 🧠 What This Project Does
 
-Barrier and intent tagging
+- Identifies healthcare barriers in Reddit posts  
+- Detects intent to delay or avoid care  
+- Measures emotional tone using sentiment analysis  
+- Extracts latent themes via topic modeling  
+- Constructs monthly time-series panels  
+- Tests predictive relationships using Granger causality  
 
-Sentiment analysis (VADER)
+---
 
-Topic modeling (LDA, BERTopic)
+## 🔬 Methods
 
-Monthly panel construction
+### NLP Pipeline
+- Text preprocessing & cleaning  
+- Barrier tagging (cost, stigma, bureaucracy, etc.)  
+- Intent detection (avoid vs neutral)  
+- Sentiment analysis (VADER)
 
-Granger causality testing
+### Topic Modeling
+- LDA  
+- BERTopic (sentence-transformers)
 
-1. How to :
-Clone the repository
-
-2. Install dependencies:
-pip install -r requirements.txt
-
-
-3. If pulling live Reddit data, set Codespaces secrets:
-REDDIT_CLIENT_ID
-REDDIT_CLIENT_SECRET
-REDDIT_USER_AGENT
-
-4. Open:
-notebooks/Final_Project.ipynb
-
-Notes:
-No raw Reddit credentials are stored in this repository.
-API credentials are handled securely using environment variables.
+### Time-Series Modeling
+- Monthly aggregation  
+- Interpolation of sparse months  
+- Granger causality testin
