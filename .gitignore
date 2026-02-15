@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project artifacts (do not commit raw pulls)
+*.parquet
+figures/
+
+# (optional) if you ever create raw/processed folders
+data/
